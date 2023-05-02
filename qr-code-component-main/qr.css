@@ -1,0 +1,45 @@
+:root {
+    --azul: hsl(220, 15%, 55%);
+    --branco: hsl(0, 0%, 100%);
+    --azul_escuro: hsl(218, 44%, 22%);
+    --cinza: hsl(212, 45%, 89%);
+ }
+
+body {
+    background-color: var(--cinza);
+    text-align: center;
+
+}
+
+.conteudo {
+    background-color: var(--branco);
+    border-radius: 20px;
+    padding: 15px;
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.conteudo_imagem {
+    border-radius: 15px;
+    width: 300px;
+}
+
+.conteudo_titulo {
+    color: var(--azul_escuro);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px;
+}
+
+.conteudo_texto {
+    color: var(--azul);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px;
+}
